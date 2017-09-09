@@ -1,0 +1,21 @@
+body {
+  background-color: #2d2e30;
+}
+
+.holocaust-art-photos-div {
+  overflow: none;
+  width: 100%;
+  height: 80%;
+}
+
+.holocaust-art-photos-div img {
+  width: 33%;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+.holocaust-art-canvas {
+  height: 100%;
+  width: 33%;
+}

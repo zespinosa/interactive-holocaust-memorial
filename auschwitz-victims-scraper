@@ -1,0 +1,5 @@
+# Using Selenium instead of BeautifulSoup to prevent scraping before page is
+# fully loaded due to large amount of data requested from webpage
+
+def initiateSelenium():
+    
